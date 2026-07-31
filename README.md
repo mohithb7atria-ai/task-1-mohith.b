@@ -1,37 +1,130 @@
-🏏 IPL Fan Zone
+# 🏏 IPL Fan Zone
 
-A responsive, single-page fan website celebrating the Indian Premier League — built with pure HTML and CSS, no frameworks or build tools required.
+A responsive, single-page fan website celebrating the **Indian Premier League (IPL)**, built using **pure HTML5 and CSS3**. No frameworks, build tools, or dependencies are required.
 
-Overview
+---
 
-IPL Fan Zone is a static site that showcases IPL teams, captains, and star players in a clean, dark stadium-night theme. It's designed to be dropped straight into a browser or hosted on any static file server.
+## 📖 Overview
 
-Features
-Sticky, blurred navigation bar with smooth scroll-to-section links and a mobile hamburger menu
-Hero section with a stadium background image and a scoreboard-style stat strip
-Team grid — all 10 IPL franchises, each with a color accent matching its real team colors
-Captains section — jersey-style monogram avatars (initials on a team-colored badge) for each captain
-Star players section — highlighted legends with the same avatar treatment
-Contact section with quick links
-Fully responsive down to mobile (768px and 500px breakpoints)
-Accessible focus states and prefers-reduced-motion support
-File Structure
-├── index.html    # Page markup and content
-├── style.css     # All styling, including the team color system
-└── README.md     # This file
-Tech Stack
-HTML5 — semantic sectioning (header, nav, section, footer)
-CSS3 — CSS custom properties (variables), CSS Grid, Flexbox, color-mix()
-Google Fonts — Poppins (body/display) and JetBrains Mono (stats/labels)
-No JavaScript frameworks — a small vanilla JS snippet powers the mobile nav toggle
-Getting Started
-Download index.html and style.css into the same folder.
-Open index.html in any modern browser — that's it, no build step or server needed.
-To host it, upload both files to any static hosting service (GitHub Pages, Netlify, Vercel, etc.).
-Customizing
-Team colors live at the top of style.css under :root (--csk, --rcb, --mi, etc.) — change a hex value and every card/avatar using that team updates automatically.
-Captain/player avatars are currently initials-based monograms. To swap in real photos, replace the <div class="avatar">...</div> markup with an <img> tag and add matching image styles.
-Content (team names, captains, players, contact info) can be edited directly in index.html.
-Credits
+**IPL Fan Zone** is a modern static website that showcases all **10 IPL franchises**, their captains, and star players in a clean **stadium-night themed UI**. The project is lightweight, responsive, and easy to customize or deploy on any static hosting platform.
 
-Designed and built by Mohith B.
+---
+
+## ✨ Features
+
+- 🏟️ Hero section with a stadium-themed background
+- 📌 Sticky navigation bar with blur effect
+- 📱 Mobile-friendly hamburger navigation
+- ⚡ Smooth scrolling between sections
+- 📊 Scoreboard-inspired statistics strip
+- 🏏 Team cards for all 10 IPL franchises
+- 👨‍✈️ Captains section with jersey-style monogram avatars
+- ⭐ Star players section
+- 📞 Contact section with quick links
+- 🎨 Team-specific color accents
+- 📱 Fully responsive design
+- ♿ Accessible focus states
+- 🌙 Dark stadium-inspired UI
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5**
+- **CSS3**
+  - CSS Grid
+  - Flexbox
+  - CSS Variables
+  - `color-mix()`
+- **Google Fonts**
+  - Poppins
+  - JetBrains Mono
+- **Vanilla JavaScript**
+  - Mobile navigation toggle
+
+---
+
+## 📂 Project Structure
+
+```
+IPL-Fan-Zone/
+│── index.html      # Main webpage
+│── style.css       # Styling
+└── README.md       # Documentation
+```
+
+---
+
+## 🚀 Getting Started
+
+1. Clone this repository.
+
+```bash
+git clone https://github.com/yourusername/IPL-Fan-Zone.git
+```
+
+2. Open the project folder.
+
+3. Double-click **index.html** or open it in your preferred browser.
+
+No installation or build process is required.
+
+---
+
+## 🎨 Customization
+
+- Team colors are defined inside `:root` in **style.css**.
+
+```css
+--csk: #fdb913;
+--rcb: #d71920;
+--mi: #004ba0;
+```
+
+- Edit team names, captains, players, and contact details directly in `index.html`.
+
+- Replace the monogram avatars with real player images by changing the avatar `<div>` to an `<img>` tag and applying suitable CSS.
+
+---
+
+## 📱 Responsive Design
+
+Optimized for:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile (768px & 500px breakpoints)
+
+---
+
+## 🌐 Deployment
+
+This project can be deployed easily on:
+
+- GitHub Pages
+- Netlify
+- Vercel
+- Any static web hosting service
+
+---
+
+## 📸 Preview
+
+> Add a screenshot or GIF of your website here.
+
+---
+
+## 📄 License
+
+This project is created for educational and portfolio purposes.
+
+---
+
+## 👨‍💻 Author
+
+**Mohith B**
+
+Frontend Developer | Web Developer
+
+GitHub: https://github.com/mohithb7atria-ai
