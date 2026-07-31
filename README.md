@@ -110,8 +110,11 @@ This project can be deployed easily on:
 ---
 
 ## 📸 Preview
+<img width="1920" height="1200" alt="Screenshot (116)" src="https://github.com/user-attachments/assets/e8707b77-1991-415c-91dc-4651812709ff" />
+<img width="1920" height="1200" alt="Screenshot (117)" src="https://github.com/user-attachments/assets/b477d732-eea7-4e2d-9d6c-5122c4f702bd" />
+<img width="1920" height="1200" alt="Screenshot (118)" src="https://github.com/user-attachments/assets/ea20dd30-ab1a-4df4-9439-39a52c0e80af" />
+<img width="1920" height="1200" alt="Screenshot (119)" src="https://github.com/user-attachments/assets/7b68a499-0400-46a4-8069-b426b25b3654" />
 
-> Add a screenshot or GIF of your website here.
 
 ---
 
@@ -123,7 +126,7 @@ This project is created for educational and portfolio purposes.
 
 ## 👨‍💻 Author
 
-**Mohith B**
+**Mohith.B**
 
 Frontend Developer | Web Developer
 
